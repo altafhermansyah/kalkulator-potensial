@@ -1,0 +1,157 @@
+body {
+	background-color: #27374D;
+	color: white;
+	font-family: monospace;
+	margin: 0px;
+	padding: 0px;
+}
+
+.masuk {
+	text-align: center;
+	margin-top: 0px;
+	padding: 40px;
+	background-color: #393053;
+}
+
+.masuk1 {
+	padding: 10px;
+}
+
+.tu {
+	text-align: center;
+}
+
+ul .li1 {
+	list-style-type: none;
+	display: inline-block;
+	padding: 30px;
+
+}
+
+ul .li1 a {
+	text-decoration: none;
+	font-size: 18px;
+	padding: 12px;
+	color: #fff;
+}
+
+.ul1 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.li1 {
+	float: left;
+	block-size: 20px;
+}
+
+.li1 a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.li1 a:hover:not(.active) {
+	background-color: transparent;
+	border-radius: 50px;
+}
+
+.active {
+	background-color: #04AA6D;
+}
+
+td {
+	background-color: #9DB2BF;
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.nb {
+	margin-left: 20px;
+}
+
+.lu {
+	color: #DDE6ED;
+}
+
+.p {
+	font-size: 15px;
+	color: #DDE6ED;
+}
+
+table {
+	border-spacing: 30px;
+	color: #27374D;
+	justify-content: center;
+
+}
+
+.tb2 {
+	background-color: #9DB2BF;
+	border-radius: 20px;
+
+}
+
+.box-input {
+	box-sizing: border-box;
+}
+
+.box-input td,
+th {
+	color: #DDE6ED;
+	background-color: #526D82;
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.box-input th,
+td {
+	color: #DDE6ED;
+	background-color: #526D82;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.input {
+	color: #DDE6ED;
+	background: rgba(0, 0, 0, 0.3);
+	border: 0px;
+	width: 25%;
+	border-radius: 20px;
+	text-align: center;
+}
+
+button {
+	color: #DDE6ED;
+	background-color: rgba(0, 0, 0, 0.3);
+	border: none;
+	width: 91%;
+	margin: 10px;
+	font-family: monospace;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	font-weight: 600;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+button:hover {
+	background: #526D82;
+	border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #393053;
+	color: white;
+}

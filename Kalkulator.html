@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Ilmiah</title>
+    <link rel="stylesheet" type="text/css" href="Kalkulator.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h2 class="masuk">Selamat Datang di Kalkulator Menghitung Energi Potensial</h2>
+        <h2 class="tu">Pembagian Tugas :</h2>
+        <marquee behavior="scroll" direction="left" scrollamount="17px">
+            <h3 class="masuk1">Cahyo : HTML || Noval : Css || Altaf : Javascript || Erwin : Css || Haikal : HTML</h3>
+        </marquee>
+    </header>
+    <table>
+        <tr>
+            <td>
+                <p class="p">Keterangan</p>
+                <ul class="lu">
+                    <li>Ep = Energi Potensial</li>
+                    <li>m = Massa (kg)</li>
+                    <li>g = Gravitasi (m/s<sup>2</sup>)</li>
+                    <li>h = Ketinggian (meter)</li>
+                </ul>
+            </td>
+            <td>
+                <p class="p">Informasi</p>
+                <ul class="lu">
+                    <li>Rumus Ep = m.g.h</li>
+                    <li>Tidak mengisi g = 10m/s</li>
+                    <li>Tekan tombol hitung setelah mengisi nilai</li>
+                    <br>
+                    <br>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <p class="nb">Nb: Masukkan Angka Pada Tempat yang Tepat Sesuai Rumus<br>Silahkan Menggunakan Kalkulator</p>
+    <br>
+
+    <table class="tb2" align="center">
+        <div class="box-input">
+            <tr>
+                <th>
+                    <p>Mencari Ep</p>
+                </th>
+                <th>
+                    <p>Mencari m</p>
+                </th>
+                <th>
+                    <p>Mencari g</p>
+                </th>
+                <th>
+                    <p>Mencari h</p>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <center>
+                        <p>Input</p>
+                    </center>
+                    <center>
+                        <p>m = <input class="input" type="text" id="epm"></p>
+                        <p>g = <input class="input" type="text" id="epg"></p>
+                        <p>h = <input class="input" type="text" id="eph"></p>
+                    </center>
+
+                </td>
+                <td>
+                    <center>
+                        <p>Input</p>
+                    </center>
+                    <center>
+                        <p>Ep= <input class="input" type="text" id="mep"></p>
+                        <p>g = <input class="input" type="text" id="mg"></p>
+                        <p>h = <input class="input" type="text" id="mh"></p>
+                    </center>
+
+                </td>
+                <td>
+                    <center>
+                        <p>Input</p>
+                    </center>
+                    <center>
+                        <p>Ep= <input class="input" type="text" id="gep"></p>
+                        <p>m = <input class="input" type="text" id="gm"></p>
+                        <p>h = <input class="input" type="text" id="gh"></p>
+                    </center>
+
+                </td>
+                <td>
+                    <center>
+                        <p>Input</p>
+                    </center>
+                    <center>
+                        <p>Ep= <input class="input" type="text" id="hep"></p>
+                        <p>m = <input class="input" type="text" id="hm"></p>
+                        <p>g = <input class="input" type="text" id="hg"></p>
+                    </center>
+
+                </td>
+            </tr>
+            <tr id="but">
+                <center>
+                    <td><button onclick="hitungep()">Hitung</button></td>
+                    <td><button onclick="hitungm()">Hitung</button></td>
+                    <td><button onclick="hitungg()">Hitung</button></td>
+                    <td><button onclick="hitungh()">Hitung</button></td>
+                </center>
+            </tr>
+            <tr>
+                <center>
+                    <td>
+                        <h6>Output :</h6>
+                        <p id="rumus1"></p>
+                        <p id="hasil1"></p>
+                    </td>
+                    <td>
+                        <h6>Output :</h6>
+                        <p id="rumus2"></p>
+                        <p id="hasil2"></p>
+                    </td>
+                    <td>
+                        <h6>Output :</h6>
+                        <p id="rumus3"></p>
+                        <p id="hasil3"></p>
+                    </td>
+                    <td>
+                        <h6>Output :</h6>
+                        <p id="rumus4"></p>
+                        <p id="hasil4"></p>
+                    </td>
+                </center>
+            </tr>
+        </div>
+    </table>
+    <br>
+    <footer>
+        <h4>Created by Kelompok Five</h4>
+    </footer>
+    <!-- Win, Pal, Engkok ukuran font e custom en dewe yo, sementara aku nggae p tok. Udah, hapus pesan bila sudah paham.... -->
+</body>
+
+</html>
+<script>
+
+</script>
